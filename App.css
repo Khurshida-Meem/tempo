@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+
+body {
+  font-family: 'Merriweather',
+    serif;
+  background-color: #d8eefe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik',
+    sans-serif;
+  color: #094067;
+}
+
+p {
+  color: #5f6c7b;
+}
+
+.color1 {
+  color: #005A87;
+}
+
+.color2 {
+  color: #017DAB;
+}
+
+.color3 {
+  color: #00B7D5;
+}
+
+.color4 {
+  color: #49E2EE;
+}
+
+.color5 {
+  color: #97F3FA;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #005A87, #49E2EE);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  box-shadow: 3px 3px 6px gray;
+}
+
+.link-text {
+  color: #017DAB;
+  text-decoration: none;
+}
+
+.nav-btn {
+  background-color: #005a87b6;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  box-shadow: 3px 3px 6px gray;
+}
+
+/* .add-blog,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+} */
+
+.card-img {
+  height: 200px;
+}
+
+.component-header {
+  border-top: 3px solid #ef4565;
+  border-bottom: 3px solid #ef4565;
+}
